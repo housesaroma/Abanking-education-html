@@ -41,11 +41,11 @@ button {
   align-items: center;
   gap: 12px;
 }
-.logo__image {
+.logo-img {
   width: 38px;
   height: auto;
 }
-.logo__name {
+.logo-name {
   font-size: 22px;
   font-weight: 600;
   line-height: 33px;
@@ -59,7 +59,7 @@ button {
   gap: 40px;
   padding: 0;
 }
-.nav-list__item a {
+.nav-list-item a {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -68,7 +68,7 @@ button {
   opacity: 55%;
   cursor: pointer;
 }
-.nav-list__item a:hover {
+.nav-list-item a:hover {
   opacity: 100%;
 }
 
@@ -76,7 +76,7 @@ button {
   display: flex;
   gap: 40px;
 }
-.buttons__button {
+.buttons-button {
   padding: 12px 28px;
   border-radius: 8px;
   font-family: "Poppins", sans-serif;
@@ -86,7 +86,7 @@ button {
   background: none;
   font-size: 16px;
 }
-.buttons__button--active {
+.buttons-button--active {
   background-color: #ff6e30;
   opacity: 100%;
 }
@@ -109,12 +109,12 @@ button {
   width: 600px;
   height: 354px;
 }
-.hero__content__title {
+.hero__content-title {
   font-size: 50px;
   line-height: 70px;
   margin-bottom: 30px;
 }
-.hero__content__paragraph {
+.hero__content-paragraph {
   font-weight: 400;
   opacity: 55%;
   font-size: 18px;
@@ -131,15 +131,15 @@ button {
   border-radius: 15px;
   background-color: #283036;
 }
-.hero__search__input-field {
+.hero__search-input-field {
   display: flex;
   gap: 13px;
 }
-.hero__search__input-field__icon {
+.hero__search-input-field-icon {
   width: 24px;
   height: auto;
 }
-.hero__search__input-field input {
+.hero__search-input-field input {
   width: 190px;
   outline: none;
   border: none;
@@ -169,7 +169,7 @@ button {
   justify-content: start;
   gap: 8px;
 }
-.hero__socials__item {
+.hero__socials-item {
   width: 58px;
   height: 58px;
   display: flex;
@@ -236,13 +236,13 @@ button {
   display: flex;
   gap: 30px;
 }
-.grid__header__text h3 {
+.grid__header-text h3 {
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
   opacity: 78%;
 }
-.grid__header__text p {
+.grid__header-text p {
   color: #ffa537;
   opacity: 55%;
 }
@@ -260,11 +260,11 @@ button {
   height: 42px;
   align-items: center;
 }
-.grid__controls__buttons {
+.grid__controls-buttons {
   display: flex;
   gap: 12px;
 }
-.grid__controls__visit {
+.grid__controls-visit {
   padding: 9px 35px;
   color: #fff;
   opacity: 55%;
@@ -281,8 +281,8 @@ button {
           backdrop-filter: blur(50px);
   transform: translateY(-20px);
 }
-.grid:hover .grid__header__text p,
-.grid:hover .grid__controls__visit {
+.grid:hover .grid__header-text p,
+.grid:hover .grid__controls-visit {
   opacity: 1;
 }
 .grid:hover .grid__controls__visit {

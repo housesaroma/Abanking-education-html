@@ -54,12 +54,12 @@ button {
     align-items: center;
     gap: 12px;
 
-    &__image {
+    &-img {
         width: 38px;
         height: auto;
     }
 
-    &__name {
+    &-name {
         font-size: 22px;
         font-weight: 600;
         line-height: 33px;
@@ -74,7 +74,7 @@ button {
     gap: 40px;
     padding: 0;
 
-    &__item {
+    &-item {
         a {
             font-size: 16px;
             font-weight: 500;
@@ -95,7 +95,7 @@ button {
     display: flex;
     gap: 40px;
 
-    &__button {
+    &-button {
         padding: 12px 28px;
         border-radius: 8px;
         font-family: $font-family;
@@ -131,13 +131,13 @@ button {
         width: 600px;
         height: 354px;
 
-        &__title {
+        &-title {
             font-size: 50px;
             line-height: 70px;
             margin-bottom: 30px;
         }
 
-        &__paragraph {
+        &-paragraph {
             font-weight: 400;
             opacity: 55%;
             font-size: 18px;
@@ -156,11 +156,11 @@ button {
         border-radius: 15px;
         background-color: $color-light-grey;
 
-        &__input-field {
+        &-input-field {
             display: flex;
             gap: 13px;
 
-            &__icon {
+            &-icon {
                 width: 24px;
                 height: auto;
             }
@@ -199,7 +199,7 @@ button {
         justify-content: start;
         gap: 8px;
 
-        &__item {
+        &-item {
             width: 58px;
             height: 58px;
             display: flex;
@@ -273,7 +273,7 @@ button {
         display: flex;
         gap: 30px;
 
-        &__text {
+        &-text {
             h3 {
                 font-weight: 500;
                 font-size: 24px;
@@ -303,12 +303,12 @@ button {
         height: 42px;
         align-items: center;
 
-        &__buttons {
+        &-buttons {
             display: flex;
             gap: 12px;
         }
 
-        &__visit {
+        &-visit {
             padding: 9px 35px;
             color: $color-white;
             opacity: 55%;
@@ -332,8 +332,8 @@ button {
         backdrop-filter: blur(50px);
         transform: translateY(-20px);
 
-        .grid__header__text p,
-        .grid__controls__visit {
+        .grid__header-text p,
+        .grid__controls-visit {
             opacity: 1;
         }
 
